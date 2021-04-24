@@ -1,0 +1,349 @@
+/* ----------- Geral ---------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+    width: 100%;
+    background-color: rgb(247, 245, 245);
+    font-family: RobotoRegular;
+    min-width: 450px;
+}
+
+#conteiner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ------------  cabeçalho ----------- */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgba(209, 209, 209, 0.876), #ececec98);
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+#header_img {
+    width: 50px;
+    margin: 5px 0 0 20px;
+}
+
+#header_1 {
+    margin-left: 300px;
+}
+
+#header_2 {
+    margin-left: 700px;
+}
+
+#header_menu {
+    display: flex;
+    font-variant: small-caps;
+}
+
+#header_menu li {
+    margin-top: 20px;
+
+}
+
+#header_menu li a {
+    color:black;
+    padding: 10px 15px;
+}
+
+#header_menu a:hover {
+    color: red;
+}
+
+#header_pesquisa {
+    background-color: #e7e7e7;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+    margin: 5px 10px 0 0;
+    position: relative;
+    top: 0;
+    right: 10px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    outline: none;
+}
+
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #fff;
+    outline: none;
+}
+#lupa-1{
+    margin-left: 20px;
+}
+
+
+#header_pesquisa img {
+    float: left;
+    width: 28px;
+    height: 27px;
+    padding: 2px;
+}
+
+::placeholder {
+    color: rgb(250, 67, 67);
+}
+
+
+/*------------------ Conteúdo ---------*/
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#mapa {
+    margin: 50px 50px 0 50px;
+}
+
+#mapa h3 {
+    margin: 20px;
+}
+
+#formulario {
+    padding-top: 58px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 150px;
+    width: 500px;
+
+}
+
+#formulario h3 {
+    font-size: 20px;
+    margin: 20px;
+    color: blue;
+}
+
+#formulario input {
+    width: 300px;
+    height: 30px;
+}
+
+
+
+button {
+    display: block;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: justify;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button1 {
+    background-color: rgb(253, 252, 252);
+    color: black;
+    border: 2px solid #070707;
+    margin-top: 20px;
+}
+
+.button1:hover {
+    background-color: #080808;
+}
+
+.button1:hover a {
+    color: #FFFBFB;
+}
+
+.assinatura1 {
+    padding: 0 10px;
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    margin: 10px 5px;
+}
+
+
+
+
+.section5 {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(140, 0, 165);
+    color: black;
+}
+.section5 h1 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.assinatura {
+    padding: 0 10px;
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    margin: 30px 5px;
+}
+
+
+.assinatura_email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 370px;
+    height: 260px;
+}
+
+.section5 h2 {
+    width: 300px;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(108, 0, 128);
+    padding: 10px;
+    transition: 400ms;
+    margin: 20px auto;
+}
+
+.section5 a {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.section5 p a {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.section5 p {
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.section5 h2:hover {
+    background-color: rgb(121, 0, 143);
+}
+
+.checkbox {
+    position: relative;
+    top: 22px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+/*-------------- Rodapé -----------------*/
+
+footer {
+    margin-top:100px;
+    width: 100%;
+    height: 250px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+
+#texto_footer {
+    padding: 20px;
+    margin-left: 100px;
+    line-height: 1.5em;
+}
+
+footer #texto_footer img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#redes_footer {
+    margin-top: 50px;
+}
+
+footer #redes_footer img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#redes_footer figure a {
+    margin: 35px 20px;
+}
+
+#redes_img {
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+#ancora a span {
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
