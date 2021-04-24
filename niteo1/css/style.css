@@ -1,0 +1,429 @@
+/*GLOBAL*/ 
+* { margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.container{
+    font-family: RobotoRegular;
+}
+
+/*Menu-Inicio*/
+.header{
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 75px;
+    background-image: linear-gradient(rgb(248, 248, 248), rgb(255, 255, 255));
+}
+
+.header .logo_niteo img{
+position: absolute;
+left:60px;
+top: 12px;
+width: 80px;
+height: 50px;
+}
+
+.menu{
+position: absolute;
+top: 10px;
+right:20px;
+width: 700px;
+height: 50px;
+display:flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.menu ul li{
+padding: 0 22px;
+display: inline-block;
+list-style: none;
+}
+
+.menu ul li a{
+text-decoration: none;
+color: #cc0000;
+}
+
+.search{
+    position: relative;
+    left: 20px;
+}
+.search img{
+    position: absolute;
+    right: 8px;
+    width: 20px;
+    top: 5px;
+}
+.search input{
+    padding: 0px 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #cc0000;
+}
+
+
+.menu ul li a:hover{
+    color: rgb(117, 117, 117);
+}
+
+/* Menu-final*/
+.section1{
+    width: 90%;
+    height: 600px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+/*Conteudo-principal - coluna1*/
+#conteudo_principal{
+    position: absolute;
+    top: 150px;
+    left: 140px;
+    width: 400px;
+    height: 450px;
+
+}
+
+#conteudo_principal h1{
+    text-align: left;
+    font-size: 50px;
+    color: gray;
+}
+
+/* carrossel - coluna1 */
+
+.carousel {
+    position: relative;
+    top: 90px;
+    left:120px;
+    height: 550px;
+    width: 550px;
+    margin: 15px 10% 15px 50%;
+    text-align: center;
+}
+
+.carousel h1 {
+    position: relative;
+}
+
+.foto_carousel {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ---------  Roberto section2 ----------*/
+
+.section2 {
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #cc0000;
+    border-radius: 10px;
+    margin-bottom: 128px;
+    
+}
+
+
+.section2 article {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    width: calc(100% - 20px);
+    max-width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 5px 5px black;
+    transition: 200ms;
+    
+}
+
+.section2 article:hover{
+background-color: rgb(218, 218, 218);
+}
+
+
+.section2 #title-article {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: calc(100% - 20px);
+    max-width: 350px;
+
+    height: 150px; 
+    margin: 10px ;
+    padding: 10px;
+      
+
+    height: 150px;
+    
+    margin: 10px ;
+    font-size: 20px;
+    
+    
+
+    
+}
+
+.section2 .column3 {
+    position: relative;
+
+    left: 10px;
+
+    top: 0px;
+    left: 0;
+
+}
+.section3{
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section5 h1 {
+    color: white;
+    margin-left: 120px;
+    margin-top: 25px;
+    }
+    
+    .assinatura{
+        float: left;
+        padding: 0 10px;
+        font-size: 18px;
+        width: 300px;
+        height: 40px;
+        margin: 30px 5px;
+    }
+    
+    .section5{
+        top: 100px;
+        width: 100%;
+        height: 450px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(140, 0, 165);
+    }
+    
+    
+    
+    .assinatura_email{
+        width: 670px;
+        height: 260px;
+    }
+    
+    .section5 h2{
+        width: 300px;
+        text-align: center;
+        border: 2px solid;
+        border-color: rgb(108, 0, 128);
+      padding: 10px;
+      transition: 400ms;
+      margin: 20px auto;
+    }
+    
+    .section5 a{
+        font-weight: 400;
+        font-size: 18px;
+        color: rgb(230, 230, 230);
+        text-decoration: none;
+    }
+
+    .section5 p a{
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+
+    .section5 p{
+        margin-left: 42px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .section5 h2:hover{
+        background-color: rgb(121, 0, 143);
+    }
+
+    .checkbox{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        float: left;
+    }
+    
+
+
+    .column5{
+        align-items: flex-start;
+        display: flex;
+        width: 35%;
+        height: auto;
+        border-radius: 20px;
+        padding: 10px;
+        flex-flow: wrap;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .column6{
+        display: flex;
+        align-items: flex-end;
+        width: 35%;
+        height: auto;
+        border-radius: 20px;
+        padding: 20px;
+        flex-flow: wrap;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .soulcode{
+        padding: 0px 40px;
+        width: 400px;
+        height: 200px;
+        background-color: #cc0000;
+        border-radius: 100px;
+        margin-bottom: 50px;
+        
+    }
+    .niteo{
+        width: 500px;
+        height: 200px;
+        background-color: #f8c100;
+        border-radius: 100px;
+        position: relative;
+    
+    }
+     #img-soulcode{
+        margin-left: 80px;
+        margin-top: 10px;
+        
+    }
+    #img-niteo{
+        margin-left: 130px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #fot{
+        padding: 40px;
+    }
+    
+    #text-sc{
+        margin-left: 50px;
+        width: 70%;
+        text-align: justify;
+    }
+    #text-nt{
+        margin-left: 70px;
+        width: 70%;
+        text-align: justify;
+    }
+
+    #banner_soul{
+        height: 80px;
+        background:rgb(140, 0, 165);
+        margin-top: 200px;
+        position: sticky;
+        top: 75px;
+        z-index: 8;
+        display: flex;
+        justify-content: center;
+    }
+
+    #banner_soul span{
+        font-weight: 500;
+        font-size: 35px;
+        margin: 25px 20px 0 30px;
+    }
+
+
+    #banner_cold{
+        margin-top: 15px;
+        width: 200px;   
+    }
+    #banner_niteo{
+        margin-top: 10px;
+        width: 200px;
+    }
+
+
+
+
+/* ------- rodape -------*/
+
+.footer {
+    position: relative;
+    top:300px;
+    width: 100%;
+    height: 150px;
+    background-color: #cc0000;
+}
+
+.footer #texto_footer {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    margin-left: 100px;
+    line-height: 1.5em;
+}
+
+.footer #texto_footer img {
+    width: 20px;
+    display: inline;
+    margin-right: 5px;
+}
+
+.footer #redes_footer {
+    margin-right: 280px;
+}
+
+.footer figure {
+    float: right;
+    width: 300px;
+    display: flex;
+    justify-items: space-around;
+}
+
+#redes_footer figure a {
+    margin: 35px 20px;
+}
+
+
+
+.footer span {
+    clear: both;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    top: 90px;
+    left: 400px;
+
+}
+
+
+
+
+
+
